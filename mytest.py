@@ -1,8 +1,9 @@
-
-
 print ('hello world')
 
 file = open("mytest.py")
+print (file)
+lines = file_object.readlines()
+print (len(lines))
 
 def exp(x,y):
     return x^y
